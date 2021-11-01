@@ -1,0 +1,405 @@
+<div class="leftBlock-inner mCustomScrollbar" data-mcs-theme="minimal">
+    <!-- menu-logo -->
+    <div class="frame-logo">
+        <a href="#"><img src="img/logo_30.svg" alt=""></a>
+    </div>
+    <div class="frame-menu">
+        <!-- menu-filter -->
+        <div class="menu-filter">
+            <input type="text" id="menu_filter" onkeyup="mFilter()" placeholder="&#xe8b6;探索目錄">
+        </div>
+        <!-- vue-sidebar-menu -->
+        <div class="menu-list" id="menu_list">
+            <div class="v-sidebar-menu">
+                <div class="vsm--scroll-wrapper">
+                    <div class="vsm--list">
+                        <!-- 保單價值／內容 -->
+                        <div class="vsm--item menu-unit-01">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">保單價值／內容</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">保單內容</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">保單明細</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="" class="vsm--link_level-3">體檢批註告知</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="" class="vsm--link_level-3">關係人資料</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="" class="vsm--link_level-3">保障險種資料</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="" class="vsm--link_level-3">紅利資料</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="" class="vsm--link_level-3">增值回饋分享金</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">保單價值</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">年金提存明細</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">還本金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">回流關聯查詢</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 投資交易 -->
+                        <div class="vsm--item menu-unit-02">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">投資交易</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">投資標的、餘額</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">交易紀錄</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">現金流量</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">自動轉換與停利查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">每月扣除額查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">約定轉換/提領查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">ETF管理費查詢</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 保戶服務資料 -->
+                        <div class="vsm--item menu-unit-03">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">保戶服務資料</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">契約變更紀錄</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">照會紀錄</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">自動化查詢</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 理賠/收費 -->
+                        <div class="vsm--item menu-unit-04">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">理賠/收費</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">理賠資料</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">理賠紀錄</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">收費資料</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">授權、委託書明細</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">扣款明細</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">集體彙繳查詢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">退件查詢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">送金紀錄查詢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">媒體繳款查詢</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 付款/保單匯款帳戶查詢 -->
+                        <div class="vsm--item menu-unit-05">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">付款/保單匯款帳戶查詢</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">付款資料查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">保單匯款帳戶查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">應付未付查詢</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 新契約資料 -->
+                        <div class="vsm--item menu-unit-06">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">新契約資料</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">新契約查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">投保紀錄查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">抽檢紀錄查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">體檢費扣佣查詢</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">體檢醫院</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 連結NETTERM -->
+                        <!-- <div class="vsm--item">
+                            <a href="#" class="vsm--link_level-1"><span class="vsm--title">連結NETTERM</span></a>
+                            <div class="vsm--dropdown">
+                                <div class="vsm--list">
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">借款/終止/ETI/RPU</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">借款試算-非年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">借款試算-年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">解約試算-一般</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">解約試算-投資</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">解約試算-年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">減額繳清/展期</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">年金身故退費</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">保單帳戶價值減少/部分終止</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">投資標的提領</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">UL提領</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">年金部分終止</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">帳務資料</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">繳費記錄</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">理賠資料</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">團險理賠歷史</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">團險理賠受理</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">收費資料</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">授權、委託書退件</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">送金紀錄</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">延滯利息試算</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">更改信用卡有效期</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">投資交易</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">保費明細</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">每月扣除額</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">門檻保費保額</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">保戶服務</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">繳費證明補發</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">三年免費健檢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">保額選擇權查詢</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">業務行政</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">保戶園地</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">險種費率查詢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">險種描述</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">團險</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">團險查詢</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">業務員資料查詢</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">借還款歷史查詢</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">非年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">ATM虛擬帳號</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">還款試算-非年金</a>
+                                                </div>
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">還款試算-年金</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">新契約查詢</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">投保紀錄</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2"><span class="vsm--title">TA</span></a>
+                                        <div class="vsm--dropdown">
+                                            <div class="vsm--list">
+                                                <div class="vsm--item">
+                                                    <a href="#" class="vsm--link_level-3">TA要保資料</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">電銷免費</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">紅利線上作業</a>
+                                    </div>
+                                    <div class="vsm--item">
+                                        <a href="#" class="vsm--link_level-2">回主畫面</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
